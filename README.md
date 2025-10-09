@@ -26,11 +26,10 @@ The EVVA Abrevva iOS SDK is a collection of tools to work with electronical EVVA
 
 ## Requirements
 
-| Platform      | Minimum Swift Version | Installation            | Status                   |
-| ------------- | --------------------- | ----------------------- | ------------------------ |
-| iOS 15.0+     | 5.7.1 / Xcode 14.1    | [CocoaPods](#cocoapods) | Fully Tested             |
-| watchOS 10.0+ | 5.7.1 / Xcode 14.1    | [CocoaPods](#cocoapods) | Fully Tested             |
-| Android       | see [EVVA Abrevva Android SDK](https://github.com/evva-sfw/abrevva-sdk-android)
+| Platform | Version | Swift Version | Installation            | Status                   |
+|----------|---------|---------------| ----------------------- | ------------------------ |
+| iOS      | 16.0+   | 5.0+          | [CocoaPods](#cocoapods) | Fully Tested             |
+| watchOS  | 10.0+   | 5.0+          | [CocoaPods](#cocoapods) | Fully Tested             |
 
 ## Installation
 

@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		TC/Un+JLTtGg6nihpxl8mSFXrHM=
+		6EbfJdrqrfgqRVd85FDKUCXn1vE=
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64-apple-watchos.swiftmodule</key>
 		<data>
-		KCmdQ+RG4HVIuDKLo4mLA5///XY=
+		psPF4wWWLNKptcskFkKyMTL8rJc=
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		TC/Un+JLTtGg6nihpxl8mSFXrHM=
+		6EbfJdrqrfgqRVd85FDKUCXn1vE=
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64_32-apple-watchos.swiftmodule</key>
 		<data>
-		P4jb6FZ+qPKm4MNNJ6BYCmevugY=
+		DSftp6WCYTc39bTwjtuOtErcl6Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,11 +70,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TC/Un+JLTtGg6nihpxl8mSFXrHM=
+			6EbfJdrqrfgqRVd85FDKUCXn1vE=
 			</data>
 			<key>hash2</key>
 			<data>
-			XM59n+qUp69lP7WP5XBamuIQSMItmOXGwmhecN3rNXw=
+			nHW67RkROuPoyPA6tpKWEjZ/Kle6Nd5fAOtqNW/7kZU=
 			</data>
 		</dict>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
@@ -114,22 +114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KCmdQ+RG4HVIuDKLo4mLA5///XY=
+			psPF4wWWLNKptcskFkKyMTL8rJc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zc/e13X6biTkpxP5wJ+fVYeBNtMhNitkftprjCEzz9U=
+			RMGbwrMQL0MegaLX5Zo9jMWWenr5hEs/TQxAbC2EYDg=
 			</data>
 		</dict>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TC/Un+JLTtGg6nihpxl8mSFXrHM=
+			6EbfJdrqrfgqRVd85FDKUCXn1vE=
 			</data>
 			<key>hash2</key>
 			<data>
-			XM59n+qUp69lP7WP5XBamuIQSMItmOXGwmhecN3rNXw=
+			nHW67RkROuPoyPA6tpKWEjZ/Kle6Nd5fAOtqNW/7kZU=
 			</data>
 		</dict>
 		<key>Modules/AbrevvaSDK.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
@@ -169,11 +169,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P4jb6FZ+qPKm4MNNJ6BYCmevugY=
+			DSftp6WCYTc39bTwjtuOtErcl6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			8KUMnLxRpr1xTRYLHM6qWGu0V8IYWGKHOgAVsuR85dQ=
+			p6AYGcUn/DfmZu8k7eFTH9XRcn8Uxhjfec+mXtVp9uc=
 			</data>
 		</dict>
 	</dict>
