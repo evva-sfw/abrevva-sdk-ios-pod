@@ -169,29 +169,29 @@ With the signalize method you can localize scanned EVVA components. On a success
 ```
 ### Disengage EVVA components
 
-For the component disengage you have to provide access credentials to the EVVA component. Those are generally acquired in the form of access media metadata from the Xesar software.
+For the component disengage you have to provide access credentials to the EVVA component. Those are generally acquired from the Xesar software.
+
+> Note: Since 3.4.0 the `mobileID` string can be passed as is, without sha256 hashing the input first.
 
 ```swift
  func disengageDevice(_ deviceId: String) async {
     guard let device = self.bleDeviceMap[deviceId] else { return }
 
-    let mobileId = ""               // sha256-hashed hex-encoded version of `xsMobileId` found in blob data.
-    let mobileDeviceKey = ""        // mobileDeviceKey mobile device key string from `xsMOBDK` found in blob data.
-    let mobileGroupId = ""          // mobileGroupId mobile group id string from `xsMOBGID` found in blob data.
-    let mediumAccessData = ""       // mediumAccessData access data string from `mediumDataFrame` found in blob data.
-    let isPermanentRelease = false  // office mode flag.
-    let timeout = 10_000
+    let mobileId = ""               // `xsMobileId` string from medium blob data
+    let mobileDeviceKey = ""        // `xsMOBDK` string from medium blob data
+    let mobileGroupId = ""          // `xsMOBGID` string from medium blob data
+    let mediumAccessData = ""       // `mediumDataFrame` string from medium blob data
+    let isPermanentRelease = false  // office mode flag
 
-    let status = await self.bleManager?.disengage(
+    let result = await self.bleManager?.disengageWithXvnResponse(
         device,
         mobileId,
         mobileDeviceKey,
         mobileGroupId,
         mediumAccessData,
         isPermanentRelease,
-        timeout
     )
-    debugPrint("Disengage /w status=\(status)")
+    debugPrint("status=\(result.0) xvnData=\(result.1)")
 }
 ```
 There are several access status types upon attempting the component disengage.
